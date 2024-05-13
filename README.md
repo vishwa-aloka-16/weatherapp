@@ -4,15 +4,15 @@ Simple weather prediction web application with JavaScript backend and CSS front 
 Functionalities
 * provides district-wise weather data
 * including:
-    -Temperature
-    -DAY, NIGHT, MORNING weather info
-    -Feels Like Temperature
-    -Max Temperature
-    -Min Temperature
-    -Humidity
-    -Sea level
-    -Visibility
-    -Wind
-    -Clouds
-    -Rain
+    *Temperature
+    *DAY, NIGHT, MORNING weather info
+    *Feels Like Temperature
+    *Max Temperature
+    *Min Temperature
+    *Humidity
+    *Sea level
+    *Visibility
+    *Wind
+    *Clouds
+    *Rain
 Uses opweathermap API for receiving data.
