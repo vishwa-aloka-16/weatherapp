@@ -15,4 +15,4 @@ Functionalities
     * Wind
     * Clouds
     * Rain
-Uses opweathermap API for receiving data.
+- Uses opweathermap API for receiving data.
