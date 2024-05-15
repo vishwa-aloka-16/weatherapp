@@ -36,10 +36,10 @@ const cityName = document.getElementById('cityName');
 const cityTemp = document.getElementById('cityTemp');
 const cityvalue = document.getElementById("city");
 const watherInfo = document.getElementsByClassName("weatherInfo");
+const searchBtn =document.getElementById("search");
 
 
-
-cityvalue.addEventListener('click',function () {
+searchBtn.addEventListener('click',function () {
     let userCity = cityvalue.value;
     cityName.innerHTML = userCity;
 
