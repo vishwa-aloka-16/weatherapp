@@ -13,6 +13,7 @@
         <div class="city-selection">
             <p>SELECT DESTRICT:</p>
             <select name="city" id="city">
+                <option value="-">Select City</option>
                 <option value="Colombo">Colombo</option>
                 <option value="Kandy">Kandy</option>
                 <option value="Ratnapura">Ratnapura</option>
@@ -47,38 +48,36 @@
             <div class="main-info">
                 <div class="weatherType">
                     <h2 id=""cityName>
-                        Kandy <br> 
+                        <span id="cityName">- </span><br> 
                         <p>Today</p>
                     </h2> 
-                    <h1 id="cityTemp">23°C</h1>
+                    <h1 id="cityTemp">-</h1>
                 </div>
-                <span class="material-symbols-outlined">rainy</span>
             </div>
             <div class="day-time-data">
-                <div class="morning">
-                    <h2>Morning</h2>
-                    <p>Warm and Sunny</p>
+                <div class="weatherDayPartContainer">
+                    <span><h2 class="weatherDay">-</h2>:<h2 class="weatherTime">-</h2></span>
+                    <p class="watherDis">-</p>
                 </div>
-                <div class="day">
-                    <h2>Day</h2>
-                    <p>Cloudy</p>
+                <div class="weatherDayPartContainer">
+                    <span><h2 class="weatherDay">-</h2>:<h2 class="weatherTime">-</h2></span>
+                    <p class="watherDis">-</p>
                 </div>
-                <div class="night">
-                    <h2>Night</h2>
-                    <p>Heavy Rain</p>
+                <div class="weatherDayPartContainer">
+                    <span><h2 class="weatherDay">-</h2>:<h2 class="weatherTime">-</h2></span>
+                    <p class="watherDis">-</p>
                 </div>
             </div>
             <div class="other-info">
                 <ul>
-                    <li>Temperature</li>
-                    <li>Max Temperature </li>
-                    <li>Min Temperature</li>
-                    <li>Humidity</li>
-                    <li>Sea level</li>
-                    <li>Visibility</li>
-                    <li>Wind</li>
-                    <li>Clouds</li>
-                    <li>Rain</li>
+                    <li class="weatherInfo">Temperature : -</li>
+                    <li class="weatherInfo">Max Temperature : - </li>
+                    <li class="weatherInfo">Min Temperature : -</li>
+                    <li class="weatherInfo">Humidity : -</li>
+                    <li class="weatherInfo">Pressure : -</li>
+                    <li class="weatherInfo">Visibility : -</li>
+                    <li class="weatherInfo">Wind : -</li>
+                    <li class="weatherInfo">Rain : -</li>
                 </ul>
  
             </div>
@@ -97,6 +96,6 @@
 
 
 
-    <!-- <script src="script.js"></script> -->
+    <script src="script.js"></script>
 </body>
 </html>
