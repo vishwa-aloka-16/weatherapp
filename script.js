@@ -147,9 +147,8 @@ fetch('http://api.openweathermap.org/data/2.5/forecast?id='+cityID+'&appid=a901d
     watherInfo[2].innerHTML= "Min Temperature:&nbsp;&nbsp;"+ data.list[0].main.temp_min +"K";
     watherInfo[3].innerHTML= "Humidity:&nbsp;&nbsp;"+ data.list[0].main.humidity ;
     watherInfo[4].innerHTML= "Pressure:&nbsp;&nbsp;"+ data.list[0].main.pressure;
-    watherInfo[5].innerHTML= "Visibility:&nbsp;&nbsp;"+ data.list[0].wind.speed ;
-    watherInfo[6].innerHTML= "Wind:&nbsp;&nbsp;"+ data.list[0].visibility;
-    watherInfo[7].innerHTML= "Rain:&nbsp;&nbsp;"+ data.list[0].rain["3h"] ;
+    watherInfo[5].innerHTML= "Wind:&nbsp;&nbsp;"+ data.list[0].wind.speed ;
+    watherInfo[6].innerHTML= "Visibility:&nbsp;&nbsp;"+ data.list[0].visibility;
 
 
 
